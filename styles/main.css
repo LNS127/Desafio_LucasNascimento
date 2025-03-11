@@ -1,0 +1,65 @@
+main{
+    width:600px
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    margin-top: 16px;
+    gap: 15px;
+    
+}
+.container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 45px;
+}
+
+#texto{
+    margin-top: 20px;
+}
+#lobo1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+}
+
+#lobo2{
+    margin-top: 20px;
+}
+
+#textoroxo{
+    margin-bottom: 15px;
+    color: var(--text-color-terciary);
+}
+
+#frase{
+    width: 630px;
+    height: 100px;
+    margin-top: 20px;
+    padding: 20px 40px;
+    text-align: center;
+    background-color:var(--background-color);
+    color: var(--text-color-secondary);
+    font-style: italic;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px gray;
+
+}
+
+#info{
+    width: 315px ;
+    height: 350px;
+    padding: 35px;
+    margin-top: 20px;
+    background-color: var(--background-color);
+    color: var(--text-color-secondary);
+    text-align:left;
+    border-radius: 5px;
+}
+
+hr{
+  margin-right: 10px;
+  margin-top: 5px;
+    
+}

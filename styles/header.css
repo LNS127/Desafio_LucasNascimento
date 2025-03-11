@@ -1,0 +1,10 @@
+h1, #headerspan{
+    color: var(--text-color-terciary);
+}
+
+#headerspan{
+    display: inline-block;
+    margin-bottom: 16px;
+    font-style: italic;
+    font-size: 10px;  
+}
