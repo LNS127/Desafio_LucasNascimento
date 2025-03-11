@@ -14,7 +14,11 @@ main{
     grid-template-columns: 1fr 1fr;
     gap: 45px;
 }
-
+.container3{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr, 0,5fr;
+}
 #texto{
     margin-top: 20px;
 }
