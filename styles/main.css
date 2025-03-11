@@ -16,8 +16,9 @@ main{
 }
 .container3{
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr, 0,5fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding-block: 10px;
 }
 #texto{
     margin-top: 20px;
@@ -47,7 +48,7 @@ main{
     color: var(--text-color-secondary);
     font-style: italic;
     border-radius: 5px;
-    box-shadow: 1px 1px 1px gray;
+    box-shadow: 1.5px 1.5px 1.5px gray;
 
 }
 
@@ -60,10 +61,20 @@ main{
     color: var(--text-color-secondary);
     text-align:left;
     border-radius: 5px;
+    box-shadow: 1.5px 1.5px 1.5px gray;
 }
 
 hr{
   margin-right: 10px;
   margin-top: 5px;
     
+}
+#anuncio{
+    width: 300px;
+}
+#anuncio2{
+    width: 300px;
+}
+#wolf3{
+    margin-top: 20px;
 }
